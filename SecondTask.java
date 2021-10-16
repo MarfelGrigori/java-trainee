@@ -10,7 +10,7 @@ public class SecondTask {
                 long num = scanner.nextLong();
                 StringBuilder string = new StringBuilder();
                 long div = 2;
-                while (div <= Math.sqrt(num)) { // корень для увеличения производительности
+                while (div <= Math.sqrt(num)) { 
                     if (isPrime(div) && num % div == 0)  {
                         string.append(div).append(" ");
                         num = num / div;
